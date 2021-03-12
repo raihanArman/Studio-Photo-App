@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_paket.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\item_paket.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sign_up.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detail_studio.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\activity_detail_studio.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_karya.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\item_karya.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_studio.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\item_studio.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sign_in.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\fragment_sign_in.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps_studio.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\activity_maps_studio.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_studio.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\activity_edit_studio.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_input_paket.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\activity_input_paket.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_daftar_studio.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\item_daftar_studio.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_daftar_studio.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\fragment_daftar_studio.xml"
+    },
+    {
+        "merged": "C:\\xampp\\htdocs\\DhanApps\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profil.xml",
+        "source": "C:\\xampp\\htdocs\\DhanApps\\app\\src\\main\\res\\layout\\fragment_profil.xml"
+    }
+]

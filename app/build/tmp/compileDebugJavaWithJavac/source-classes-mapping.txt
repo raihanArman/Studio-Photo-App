@@ -1,0 +1,76 @@
+id/co/dhanapps/databinding/ActivityMainBinding.java
+ id.co.dhanapps.databinding.ActivityMainBinding
+id/co/dhanapps/databinding/ActivityDetailStudioBinding.java
+ id.co.dhanapps.databinding.ActivityDetailStudioBinding
+id/co/dhanapps/databinding/FragmentDaftarStudioBindingImpl.java
+ id.co.dhanapps.databinding.FragmentDaftarStudioBindingImpl
+id/co/dhanapps/databinding/FragmentHomeBindingImpl.java
+ id.co.dhanapps.databinding.FragmentHomeBindingImpl
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+id/co/dhanapps/databinding/ActivityEditStudioBindingImpl.java
+ id.co.dhanapps.databinding.ActivityEditStudioBindingImpl
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+id/co/dhanapps/BR.java
+ id.co.dhanapps.BR
+id/co/dhanapps/databinding/ActivityMapsStudioBindingImpl.java
+ id.co.dhanapps.databinding.ActivityMapsStudioBindingImpl
+id/co/dhanapps/databinding/ItemPaketBindingImpl.java
+ id.co.dhanapps.databinding.ItemPaketBindingImpl
+id/co/dhanapps/databinding/ActivityLoginBinding.java
+ id.co.dhanapps.databinding.ActivityLoginBinding
+id/co/dhanapps/databinding/ActivityMainBindingImpl.java
+ id.co.dhanapps.databinding.ActivityMainBindingImpl
+id/co/dhanapps/DataBindingTriggerClass.java
+ id.co.dhanapps.DataBindingTriggerClass
+id/co/dhanapps/BuildConfig.java
+ id.co.dhanapps.BuildConfig
+id/co/dhanapps/databinding/ItemPaketBinding.java
+ id.co.dhanapps.databinding.ItemPaketBinding
+id/co/dhanapps/databinding/ItemStudioBindingImpl.java
+ id.co.dhanapps.databinding.ItemStudioBindingImpl
+id/co/dhanapps/databinding/FragmentSignUpBindingImpl.java
+ id.co.dhanapps.databinding.FragmentSignUpBindingImpl
+id/co/dhanapps/databinding/ItemDaftarStudioBindingImpl.java
+ id.co.dhanapps.databinding.ItemDaftarStudioBindingImpl
+id/co/dhanapps/databinding/FragmentSignUpBinding.java
+ id.co.dhanapps.databinding.FragmentSignUpBinding
+id/co/dhanapps/databinding/ActivityInputPaketBindingImpl.java
+ id.co.dhanapps.databinding.ActivityInputPaketBindingImpl
+id/co/dhanapps/databinding/FragmentHomeBinding.java
+ id.co.dhanapps.databinding.FragmentHomeBinding
+id/co/dhanapps/databinding/ActivityDetailStudioBindingImpl.java
+ id.co.dhanapps.databinding.ActivityDetailStudioBindingImpl
+id/co/dhanapps/databinding/FragmentProfilBinding.java
+ id.co.dhanapps.databinding.FragmentProfilBinding
+id/co/dhanapps/databinding/ActivityInputPaketBinding.java
+ id.co.dhanapps.databinding.ActivityInputPaketBinding
+id/co/dhanapps/databinding/FragmentProfilBindingImpl.java
+ id.co.dhanapps.databinding.FragmentProfilBindingImpl
+id/co/dhanapps/databinding/ItemStudioBinding.java
+ id.co.dhanapps.databinding.ItemStudioBinding
+id/co/dhanapps/databinding/ItemDaftarStudioBinding.java
+ id.co.dhanapps.databinding.ItemDaftarStudioBinding
+id/co/dhanapps/databinding/ActivityLoginBindingImpl.java
+ id.co.dhanapps.databinding.ActivityLoginBindingImpl
+id/co/dhanapps/databinding/ActivityEditStudioBinding.java
+ id.co.dhanapps.databinding.ActivityEditStudioBinding
+id/co/dhanapps/databinding/FragmentSignInBinding.java
+ id.co.dhanapps.databinding.FragmentSignInBinding
+id/co/dhanapps/databinding/ItemKaryaBindingImpl.java
+ id.co.dhanapps.databinding.ItemKaryaBindingImpl
+id/co/dhanapps/databinding/ItemKaryaBinding.java
+ id.co.dhanapps.databinding.ItemKaryaBinding
+id/co/dhanapps/databinding/FragmentDaftarStudioBinding.java
+ id.co.dhanapps.databinding.FragmentDaftarStudioBinding
+id/co/dhanapps/databinding/ActivityMapsStudioBinding.java
+ id.co.dhanapps.databinding.ActivityMapsStudioBinding
+id/co/dhanapps/databinding/FragmentSignInBindingImpl.java
+ id.co.dhanapps.databinding.FragmentSignInBindingImpl
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+id/co/dhanapps/DataBinderMapperImpl.java
+ id.co.dhanapps.DataBinderMapperImpl
+ id.co.dhanapps.DataBinderMapperImpl$InnerBrLookup
+ id.co.dhanapps.DataBinderMapperImpl$InnerLayoutIdLookup

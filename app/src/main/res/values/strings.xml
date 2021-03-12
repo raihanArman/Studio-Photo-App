@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Go Studio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_terdekat">Map</string>
+    <string name="title_activity_maps_studio">Map</string>
+    <string name="google_direction_key">AIzaSyDaBR27tHOHKS3QflVhGjf_i4IBSIGhFI0</string>
+</resources>
