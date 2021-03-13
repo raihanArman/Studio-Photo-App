@@ -11,6 +11,7 @@ import id.co.dhanapps.data.Paket
 import id.co.dhanapps.databinding.ItemPaketBinding
 import id.co.dhanapps.view.InputPaketActivity
 
+// menampilkan daftar list paket
 class PaketAdapter(val context: Context, val type: Int): RecyclerView.Adapter<PaketAdapter.ViewHolder>() {
 
     private val listPaket = mutableListOf<Paket>()

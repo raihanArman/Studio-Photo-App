@@ -14,6 +14,7 @@ import id.co.dhanapps.data.Studio
 import id.co.dhanapps.databinding.ItemStudioBinding
 import id.co.dhanapps.view.DetailStudioActivity
 
+// menampilkan daftar list studio
 class StudioAdapter(val context: Context): RecyclerView.Adapter<StudioAdapter.ViewHolder>() {
 
     private val listStudio = mutableListOf<Studio>()

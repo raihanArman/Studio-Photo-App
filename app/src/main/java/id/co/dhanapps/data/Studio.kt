@@ -4,6 +4,7 @@ import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
+// Class data Studio
 data class Studio (
     @SerializedName("id_studio")
     var idStudio: String? = "",

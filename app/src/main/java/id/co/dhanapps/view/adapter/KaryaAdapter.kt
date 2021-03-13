@@ -12,6 +12,7 @@ import id.co.dhanapps.data.Karya
 import id.co.dhanapps.databinding.ItemKaryaBinding
 import id.co.dhanapps.utils.OnClickKarya
 
+// menampilkan daftar list karya
 class KaryaAdapter(val context: Context, val type: Int, val onClickKarya: OnClickKarya): RecyclerView.Adapter<KaryaAdapter.ViewHolder>() {
     private val listKarya = mutableListOf<Karya>()
 

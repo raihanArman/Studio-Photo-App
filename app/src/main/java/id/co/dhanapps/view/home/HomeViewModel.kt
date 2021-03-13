@@ -9,7 +9,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import id.co.dhanapps.data.*
-import id.co.dhanapps.data.api.ResponseItem
+import id.co.dhanapps.data.response.ResponseItem
+import id.co.dhanapps.data.response.ResponseList
 import id.co.dhanapps.repository.HomeRepository
 import id.co.dhanapps.utils.Resource
 import id.co.kimopay.util.SingleLiveEvent
@@ -19,6 +20,7 @@ import kotlinx.coroutines.coroutineScope
 import retrofit2.Response
 import java.io.IOException
 
+// Mengambil data dari home repository
 class HomeViewModel(val app: Application, val homeRepository: HomeRepository): AndroidViewModel(app) {
 
     val homeMutable: MutableLiveData<Resource<Home>> = MutableLiveData()
@@ -35,12 +37,12 @@ class HomeViewModel(val app: Application, val homeRepository: HomeRepository): A
     val hapusKaryaMutable: MutableLiveData<Resource<Value>> = MutableLiveData()
 
     var homeResponse: Home ?= null
-    var paketStudioResponse : ResponseList<Paket> ?= null
+    var paketStudioResponse : ResponseList<Paket>?= null
     var routeResponse : String ?= null
-    var karyaResponse: ResponseList<Karya> ?= null
-    var studioItemResponse: ResponseItem<Studio> ?= null
+    var karyaResponse: ResponseList<Karya>?= null
+    var studioItemResponse: ResponseItem<Studio>?= null
     var editStudioResponse: Value ?= null
-    var daftarStudioResponse: ResponseList<Studio> ?= null
+    var daftarStudioResponse: ResponseList<Studio>?= null
     var inputPaketResponse : Value ?= null
     var inputKaryaResponse: Value ?= null
     var hapusPaketResponse : Value ?= null

@@ -18,6 +18,8 @@ import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.io.IOException
 
+
+// Mengambil data dari login repository
 class LoginViewModel(val app: Application, val loginRepository: LoginRepository): AndroidViewModel(app) {
     val loginMutable: MutableLiveData<Resource<Value>> = MutableLiveData()
     val registerMutable: MutableLiveData<Resource<Value>> = MutableLiveData()

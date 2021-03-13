@@ -1,9 +1,12 @@
 package id.co.dhanapps.data.api
 
 import id.co.dhanapps.data.*
+import id.co.dhanapps.data.response.ResponseItem
+import id.co.dhanapps.data.response.ResponseList
 import retrofit2.Response
 import retrofit2.http.*
 
+// Mengambil data dari API
 interface ApiService {
     @FormUrlEncoded
     @POST("login_user.php")

@@ -4,6 +4,7 @@ import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
+// Class data Paket
 data class Paket(
     @SerializedName("id_paket")
     var idPaket: String ?= "",

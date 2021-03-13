@@ -24,9 +24,9 @@ import id.co.dhanapps.BuildConfig
 import id.co.dhanapps.R
 import id.co.dhanapps.data.Karya
 import id.co.dhanapps.data.Paket
-import id.co.dhanapps.data.ResponseList
+import id.co.dhanapps.data.response.ResponseList
 import id.co.dhanapps.data.Studio
-import id.co.dhanapps.data.api.ResponseItem
+import id.co.dhanapps.data.response.ResponseItem
 import id.co.dhanapps.databinding.FragmentProfilBinding
 import id.co.dhanapps.utils.Constant
 import id.co.dhanapps.utils.ConvertBitmap

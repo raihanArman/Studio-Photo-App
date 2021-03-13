@@ -1,8 +1,9 @@
-package id.co.dhanapps.data
+package id.co.dhanapps.data.response
 
 import com.google.gson.annotations.SerializedName
 
-data class ResponseList<T> (
+// Response API berbentuk Objek
+data class ResponseItem<T> (
     @SerializedName("status")
     val status: String,
 
@@ -10,5 +11,5 @@ data class ResponseList<T> (
     val message: String,
 
     @SerializedName("data")
-    val data: List<T>
+    val data: T
 )

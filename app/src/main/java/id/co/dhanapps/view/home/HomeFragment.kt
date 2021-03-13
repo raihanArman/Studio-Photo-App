@@ -31,10 +31,16 @@ import java.io.IOException
 class HomeFragment : Fragment() {
     var progressDialog: ProgressDialog? = null
 
+    //    variable yang tampilan dari home fragment
     private lateinit var dataBinding: FragmentHomeBinding
+
+    //    variable yang menampilkan list daftar studio
     private lateinit var studioAdapter: StudioAdapter
+
+    //    variable yang mengambil data dari API
     private lateinit var viewModel: HomeViewModel
 
+//    variable untuk mendapatkan lokasi device
     private var currentLocation: Location? = null
     private var fusedLocationProviderClient: FusedLocationProviderClient? = null
     private val REQUEST_CODE = 101
@@ -50,8 +56,9 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        viewModel = (activity as MainActivity).viewModel
 
+//        inisialisasi variable
+        viewModel = (activity as MainActivity).viewModel
         studioAdapter = StudioAdapter(requireContext())
         progressDialog = ProgressDialog(activity)
         progressDialog!!.setMessage("Proses..")
@@ -68,6 +75,7 @@ class HomeFragment : Fragment() {
         }
 
 
+//        Mendapatkan lokasi device
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(activity!!)
         if (ActivityCompat.checkSelfPermission(
                 activity!!,
@@ -85,6 +93,9 @@ class HomeFragment : Fragment() {
             return
         }
         fetchLocation()
+
+
+//        Proses pengambilan data home
         viewModel.homeMutable.observe(viewLifecycleOwner, Observer {response ->
             when(response){
                 is Resource.Success ->{
@@ -108,6 +119,7 @@ class HomeFragment : Fragment() {
 
     }
 
+//        Proses pengambilan data studio terdekat
     private fun getStudioTerdekat(currentLatLng: LatLng, listStudio: List<Studio>) {
         val geocoder = Geocoder(activity)
         var addresses: List<Address?>
@@ -143,6 +155,7 @@ class HomeFragment : Fragment() {
 
     }
 
+    //        Proses Metode Haversine untuk mendapatkan jarak antara jarak device dan jarak studio
     fun getDistanceMeters(pt1: LatLng, pt2: LatLng): Long {
         var distance = 0.0
         try {
@@ -163,6 +176,8 @@ class HomeFragment : Fragment() {
         return distance.toLong()
     }
 
+
+    //        Mendapatkan lokasi device
     private fun fetchLocation() {
         progressDialog?.show()
         if (ActivityCompat.checkSelfPermission(

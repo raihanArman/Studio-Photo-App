@@ -17,21 +17,34 @@ import id.co.dhanapps.view.MapsTerdekatActivity
 import id.co.dhanapps.view.ProfilFragment
 import id.co.dhanapps.view.login.LoginActivity
 
+//
 class MainActivity : AppCompatActivity() {
 
+    //    variable yang tampilan dari main activity
     private lateinit var dataBinding: ActivityMainBinding
+
+
+    //    variable yang mengambil data dari API
     lateinit var viewModel: HomeViewModel
+
+//    variable mengecek apakah sudah login atau belum
     var sharedPreferences: SharedPreferences? = null
     var statusLogin = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+//        inisialisasi variable
         dataBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
         sharedPreferences = getSharedPreferences(Constant.LOGIN_KEY, Context.MODE_PRIVATE)
         statusLogin = sharedPreferences?.getBoolean(Constant.LOGIN_STATUS, false)!!
+        val homeRepository = HomeRepository()
+        val viewModelFactory = HomeViewModelProviderFactory(application, homeRepository)
+        viewModel = ViewModelProvider(this, viewModelFactory).get(HomeViewModel::class.java)
 
+
+
+//        Membuat fungsi pada bottom navigation
         dataBinding.bottomNavigationView.setOnNavigationItemReselectedListener {
             when(it.itemId){
                 R.id.nav_home -> {
@@ -61,10 +74,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        val homeRepository = HomeRepository()
-        val viewModelFactory = HomeViewModelProviderFactory(application, homeRepository)
-        viewModel = ViewModelProvider(this, viewModelFactory).get(HomeViewModel::class.java)
-
+//        Menampilan Home
         setFragment(HomeFragment.newInstance())
 
     }

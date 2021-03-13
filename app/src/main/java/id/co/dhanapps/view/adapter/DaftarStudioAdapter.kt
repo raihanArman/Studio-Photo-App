@@ -13,7 +13,8 @@ import id.co.dhanapps.data.Studio
 import id.co.dhanapps.databinding.ItemDaftarStudioBinding
 import id.co.dhanapps.view.DetailStudioActivity
 
-class DaftarAnakAdapter(val context: Context): RecyclerView.Adapter<DaftarAnakAdapter.ViewHolder>() {
+// menampilkan daftar list studio
+class DaftarStudioAdapter(val context: Context): RecyclerView.Adapter<DaftarStudioAdapter.ViewHolder>() {
 
     val listStudio = mutableListOf<Studio>()
 

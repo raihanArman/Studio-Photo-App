@@ -3,6 +3,8 @@ package id.co.dhanapps.repository
 import id.co.dhanapps.data.Studio
 import id.co.dhanapps.data.api.RetrofitRequest
 
+
+// Mengambil data dari class ApiReqeust untuk data Home
 class HomeRepository {
     suspend fun getStudio() =
             RetrofitRequest.api.getStudio()

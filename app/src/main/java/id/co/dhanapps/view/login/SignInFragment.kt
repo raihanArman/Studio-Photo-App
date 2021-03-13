@@ -22,8 +22,14 @@ import id.co.dhanapps.view.home.MainActivity
 
 class SignInFragment : Fragment() {
 
+    //    variable yang tampilan dari Sign In fragment
     lateinit var dataBinding: FragmentSignInBinding
+
+
+    //    variable yang mengambil data dari API
     private lateinit var viewModel: LoginViewModel
+
+//    menyimpan status login
     private var sharedPreferences: SharedPreferences? = null
     private var editor: SharedPreferences.Editor? = null
 
@@ -39,10 +45,12 @@ class SignInFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+//        inisialisasi variable
         viewModel = (activity as LoginActivity).viewModel
         sharedPreferences = activity!!.getSharedPreferences(LOGIN_KEY, Context.MODE_PRIVATE)
         editor = sharedPreferences?.edit()
 
+//        Proses Login
         viewModel.loginMutable.observe(viewLifecycleOwner, Observer { response ->
             when(response){
                 is Resource.Success -> {
@@ -64,13 +72,19 @@ class SignInFragment : Fragment() {
 
 
         dataBinding.btnSignIn.setOnClickListener {
+            //        Memanggil fungsi login dari loginviewmodel
             viewModel.getLoginUser(dataBinding.etEmail.text.toString(), dataBinding.etPassword.text.toString())
         }
 
 
-        dataBinding.tvRegistrasi.setOnClickListener(View.OnClickListener { setFragment(SignUpFragment()) })
+        dataBinding.tvRegistrasi.setOnClickListener(View.OnClickListener {
+            //        Menampilkan sign up
+            setFragment(SignUpFragment())
+        })
 
     }
+
+//    Menyimpan data user
 
     private fun saveDataUser(studio: Studio) {
         val idUser: String? = studio?.idStudio
